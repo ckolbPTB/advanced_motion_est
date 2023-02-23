@@ -21,6 +21,6 @@ tqdm
 pylbfgs
 ksvd
 pynufft
-sklearn
+scikit-learn
 more_itertools
 git+https://github.com/stefanloock/pyshearlab/@master
