@@ -1,5 +1,4 @@
 import numpy as np
-from advanced_motion_est import data_manip
 import data_manip
 
 def test_normalise_image():
