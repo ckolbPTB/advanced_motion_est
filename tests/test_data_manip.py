@@ -1,4 +1,7 @@
 import numpy as np
+import sys
+
+sys.path.append('./src')
 import data_manip
 
 def test_normalise_image():
