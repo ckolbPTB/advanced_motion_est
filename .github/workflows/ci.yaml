@@ -33,6 +33,7 @@ jobs:
         with:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           repository: ckolbPTB/PtbPyRecon
+          ref: master
           path: ptbpyrecon
       - name: Lint with flake8
         run: |
