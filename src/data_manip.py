@@ -10,7 +10,7 @@ def normalise_image(im):
 
 
 def reg_im(ima, imb, ptmp, reg_mask, reg_type='bspline', be=0, vol=0, jac=0, sparse=0, sp=2):
-    PathTemp = ptmp + 'reg_3d_nonrigid/'
+    PathTemp = ptmp + '/reg_3d_nonrigid/'
     MirtkPath = '/opt/mirtk/lib/tools/'
     MirtkType = reg_type
     MirtkBe = be

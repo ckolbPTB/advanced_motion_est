@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import sys
 
 sys.path.append('./src')
@@ -15,4 +16,5 @@ def test_reg_im():
     ima = np.random.randn(20,20,1,1)
     imb = np.random.randn(20,20,1,1)
     reg_mask = np.ones((20,20,1,1))
-    data_manip.reg_im(ima, imb, '/', reg_mask)
+    reg_path = os.getcwd()
+    data_manip.reg_im(ima, imb, reg_path, reg_mask)
