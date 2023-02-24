@@ -9,3 +9,9 @@ def test_normalise_image():
     im_norm = data_manip.normalise_image(im)
     assert np.min(im_norm) == 0
     assert np.max(im_norm) == 1
+    
+def test_reg_im():
+    ima = np.random.randn(20,20)
+    imb = np.random.randn(20,20)
+    reg_mask = np.ones((20,20))
+    data_manip.reg_im(ima, imb, './', reg_mask)

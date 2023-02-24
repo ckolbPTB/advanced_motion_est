@@ -45,7 +45,9 @@ jobs:
           path: ptbpyrecon
       - name: Install ptbpyrecon dependencies
         run: |
-          if [ -f ptbpyrecon/requirements.txt ]; then pip install -r ptbpyrecon/requirements.txt; fi
+          ls
+          pwd
+          if [ -f ptbpyrecon/ptbrecon_requirements.txt ]; then pip install -r ptbpyrecon/ptb_reconrequirements.txt; fi
       - name: Install ptbpyrecon
         run: |
             cd ptbpyrecon
