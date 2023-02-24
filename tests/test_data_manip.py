@@ -15,4 +15,4 @@ def test_reg_im():
     ima = np.random.randn(20,20,1,1)
     imb = np.random.randn(20,20,1,1)
     reg_mask = np.ones((20,20,1,1))
-    data_manip.reg_im(ima, imb, './', reg_mask)
+    data_manip.reg_im(ima, imb, '/', reg_mask)
