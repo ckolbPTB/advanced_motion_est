@@ -1,24 +1,24 @@
-- python=3.8
-- numpy
-- cython
-- scipy
-- h5py
-- pyfftw
-- nibabel
-- lmfit
-- numdifftools
-- dominate
-- imageio
-- matplotlib
-- psutil
-- pandas
-- scikit-image
-- scikit-learn
-- hdf5storage
-- pydicom
-- tqdm
-- pylbfgs
-- ksvd
-- pynufft
-- more_itertools
-- git+https://github.com/stefanloock/pyshearlab/@master
+python=3.8
+numpy
+cython
+scipy
+h5py
+pyfftw
+nibabel
+lmfit
+numdifftools
+dominate
+imageio
+matplotlib
+psutil
+pandas
+scikit-image
+scikit-learn
+hdf5storage
+pydicom
+tqdm
+pylbfgs
+ksvd
+pynufft
+more_itertools
+git+https://github.com/stefanloock/pyshearlab/@master
