@@ -60,7 +60,7 @@ jobs:
             mkdir build
             cd build
             cmake ..
-            make -j 20
+            make -j 2
             sudo make install
       - name: Test with pytest
         run: |

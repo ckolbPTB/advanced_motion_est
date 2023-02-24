@@ -10,6 +10,7 @@ def test_normalise_image():
     assert np.min(im_norm) == 0
     assert np.max(im_norm) == 1
     
+    
 def test_reg_im():
     ima = np.random.randn(20,20,1,1)
     imb = np.random.randn(20,20,1,1)
