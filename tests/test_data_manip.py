@@ -11,7 +11,7 @@ def test_normalise_image():
     assert np.max(im_norm) == 1
     
 def test_reg_im():
-    ima = np.random.randn(20,20,1)
-    imb = np.random.randn(20,20,1)
-    reg_mask = np.ones((20,20,1))
+    ima = np.random.randn(20,20,1,1)
+    imb = np.random.randn(20,20,1,1)
+    reg_mask = np.ones((20,20,1,1))
     data_manip.reg_im(ima, imb, './', reg_mask)
